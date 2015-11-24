@@ -1,5 +1,5 @@
 name:                prelude-edsl
-version:             0.1
+version:             0.1.1
 synopsis:            An EDSL-motivated subset of the Prelude
 description:         "Prelude.EDSL" exports a small subset of the "Prelude":
                      some standard types and classes plus a small number of
@@ -33,7 +33,7 @@ author:              Emil Axelsson
 maintainer:          emax@chalmers.se
 copyright:           Copyright (c) 2015, Emil Axelsson
 homepage:            https://github.com/emilaxelsson/prelude-edsl
-bug-reports:         https://github.com/emilaxelsson/operational-alacarte/issues
+bug-reports:         https://github.com/emilaxelsson/prelude-edsl/issues
 category:            Language
 build-type:          Simple
 cabal-version:       >=1.10
