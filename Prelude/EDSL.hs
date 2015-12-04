@@ -16,7 +16,7 @@ module Prelude.EDSL
   , Bounded (..)
   , Fractional (..)
   , Functor (..)
-#if __GHC_VERSION__ >= 710
+#if __GLASGOW_HASKELL__ >= 710
   , (<$>)
   , Applicative (..)
 #endif
