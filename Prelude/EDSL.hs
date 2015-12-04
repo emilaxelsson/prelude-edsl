@@ -1,3 +1,5 @@
+{-# LANGUAGE CPP #-}
+
 -- | A subset of the "Prelude" motivated by deeply embedded domain-specific
 -- languages
 
@@ -14,6 +16,10 @@ module Prelude.EDSL
   , Bounded (..)
   , Fractional (..)
   , Functor (..)
+#if __GHC_VERSION__ >= 710
+  , (<$>)
+  , Applicative (..)
+#endif
   , Monad (..)
   , Num (..)
   , Read (..)
