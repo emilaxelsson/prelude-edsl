@@ -24,6 +24,7 @@ module Prelude.EDSL
   , Num (..)
   , Read (..)
   , Show (..)
+  , FilePath(..)
 
   , (.)
   , ($)
