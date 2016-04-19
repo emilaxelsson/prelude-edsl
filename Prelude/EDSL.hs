@@ -6,6 +6,7 @@
 module Prelude.EDSL
   ( Bool (..)
   , Double
+  , FilePath(..)
   , Float
   , Int
   , IO
@@ -13,18 +14,17 @@ module Prelude.EDSL
   , Maybe (..)
   , String
 
-  , Bounded (..)
-  , Fractional (..)
-  , Functor (..)
 #if __GLASGOW_HASKELL__ >= 710
   , (<$>)
   , Applicative (..)
 #endif
+  , Bounded (..)
+  , Fractional (..)
+  , Functor (..)
   , Monad (..)
   , Num (..)
   , Read (..)
   , Show (..)
-  , FilePath(..)
 
   , (.)
   , ($)
