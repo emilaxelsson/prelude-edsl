@@ -6,6 +6,7 @@
 module Prelude.EDSL
   ( Bool (..)
   , Double
+  , Either (..)
   , FilePath(..)
   , Float
   , Int
@@ -31,9 +32,11 @@ module Prelude.EDSL
   , asTypeOf
   , const
   , curry
+  , either
   , flip
   , fst
   , id
+  , maybe
   , otherwise
   , print
   , putStr
