@@ -20,6 +20,7 @@ module Prelude.EDSL
   , Applicative (..)
 #endif
   , Bounded (..)
+  , Floating (..)
   , Fractional (..)
   , Functor (..)
   , Monad (..)

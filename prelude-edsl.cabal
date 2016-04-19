@@ -1,5 +1,5 @@
 name:                prelude-edsl
-version:             0.3.1
+version:             0.4
 synopsis:            An EDSL-motivated subset of the Prelude
 description:         "Prelude.EDSL" exports a small subset of the "Prelude":
                      some standard types and classes plus a small number of
